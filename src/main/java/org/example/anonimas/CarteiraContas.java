@@ -1,7 +1,7 @@
 package org.example.anonimas;
 
 public class CarteiraContas {
-    Conta contaCorrente = new Conta() { /* Sobrescrevendo o comportamento da classe */
+    Conta contaCorrente = new Conta() { // Sobrescrevendo o comportamento da classe
 
         @Override
         public void imprimeTipoConta() {

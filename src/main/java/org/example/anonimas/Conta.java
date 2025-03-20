@@ -1,6 +1,6 @@
 package org.example.anonimas;
 
-/* Classes anônimas não são declaradas explicitamente */
+// Classes anônimas não são declaradas explicitamente
 
 public class Conta {
 
