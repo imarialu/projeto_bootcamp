@@ -7,6 +7,7 @@ import java.util.Set;
 
             public static void main(String[] args) {
 
+                // Hash mapeia dados grandes para pequenos dados, de tamanho fixo.
                 Set<String> contas = new HashSet<>(); // Lista de strings
 
                 contas.add("Conta Poupança");
