@@ -15,7 +15,7 @@ public class TesteLista {
         contas.add("Conta Poupança");
 
 
-        // Pega os elementos através de índice
+        // Pega os objetos através de índice
         System.out.println("Conta 1: " + contas.get(0));
         System.out.println("Conta 2: " + contas.get(1));
         System.out.println("Conta 3: " + contas.get(2));
