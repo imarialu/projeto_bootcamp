@@ -10,10 +10,10 @@ public class TesteSobrescritaSobrecarga {
         contaC.sacar(1000.00);
 
         ContaCorrente contaCComTaxa = new ContaCorrente(9000.00);
-        contaCComTaxa.sacar(1000.00, 0.50);
+        contaCComTaxa.sacar(1000.00, 1.00);
 
         System.out.println("Saldo da conta poupança: " + contaP.getSaldo());
-        System.out.println("Saldo da conta Corrente sem taxa: " + contaC.getSaldo());
-        System.out.println("Saldo da conta Corrente com taxa: " + contaCComTaxa.getSaldo());
+        System.out.println("Saldo da conta corrente sem taxa: " + contaC.getSaldo());
+        System.out.println("Saldo da conta corrente com taxa: " + contaCComTaxa.getSaldo());
     }
 }
