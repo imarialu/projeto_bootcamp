@@ -12,8 +12,14 @@ public class Conta {
     public void sacar(Double valor) throws Exception{
         Double valorADescontar = valor + this.taxaOperacao;
 
+        // Criando um tratamento de exceção com Exception
         if(this.saldo <= 0 || this.saldo < valorADescontar){
             throw new Exception("Saldo insuficiente");
+        }
+
+        // Tratamento de exceção especificado
+        if(valor == 0){
+            throw new excecaoValorParaSaqueZerado();
         }
 
         this.saldo -= valorADescontar;

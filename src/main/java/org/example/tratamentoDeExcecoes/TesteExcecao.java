@@ -8,8 +8,8 @@ public class TesteExcecao {
         conta.setTaxaOperacao(1.00);
 
         try{
-            conta.sacar(1500.00); // Tenta sacar
-        }catch(Exception e){
+            conta.sacar(0.00); // Tenta sacar
+        }catch(excecaoValorParaSaqueZerado e){
             System.out.println(e.getMessage()); // Caso não consiga realizar, retornará a mensagem do exception
         }finally {
             System.out.println("Saldo da conta: " + conta.getSaldo());
