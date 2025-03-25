@@ -7,7 +7,7 @@ public class TesteSwitch {
         Conta contaPoupanca = new ContaPoupanca();
 
         exibeTipoConta(contaCorrente);
-        exibeTipoConta(contaPoupanca);
+        // exibeTipoConta(contaPoupanca);
     }
 
     private static void exibeTipoConta(Conta conta){

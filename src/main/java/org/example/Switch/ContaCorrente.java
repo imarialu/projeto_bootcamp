@@ -5,7 +5,7 @@ public class ContaCorrente implements Conta{
     private final String tipoConta;
 
     public ContaCorrente(){
-        this.tipoConta = "Conta Corrente";
+        this.tipoConta = "Conta Pagamento";
     }
 
     public String getTipoConta(){
