@@ -10,11 +10,10 @@ public class TesteExcecao {
         try{
             System.out.println("Saldo da conta: " + conta.getSaldo());
             conta.sacar(300.00); // Tenta sacar
-        }catch(excecaoValorParaSaqueZerado e){
+        }catch(Exception e){
             System.out.println(e.getMessage()); // Caso não consiga realizar, retornará a mensagem do exception
         }finally {
             System.out.println("Saldo da conta: " + conta.getSaldo());
         }
-
     }
 }
