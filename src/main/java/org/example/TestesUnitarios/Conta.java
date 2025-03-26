@@ -17,6 +17,6 @@ public class Conta {
     }
 
     public void sacar(Double valor){
-        this.saldo -= valor - taxaOperacao;
+        this.saldo -= valor + taxaOperacao;
     }
 }
